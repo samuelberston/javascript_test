@@ -18,6 +18,6 @@ module.exports = {
     'react',
   ],
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'import/extensions': [1, { jsx: 'always', js: 'always' }],
   },
 };
