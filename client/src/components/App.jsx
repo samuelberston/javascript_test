@@ -1,6 +1,8 @@
 /* eslint-disable import/extensions */
 import React from 'react';
 
+import css from './App.module.css';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -10,7 +12,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div id="app">
+      <div id="app" className={css.app}>
         React app
       </div>
     );
