@@ -2,17 +2,20 @@
   "name": "javascript_test",
   "version": "1.0.0",
   "description": "project for Crest",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sam berston",
   "license": "ISC",
   "dependencies": {
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
     "nodemon": "^2.0.7",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
