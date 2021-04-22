@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 const Box = ({ index, color, deleteBox }) => (
   <div id="box" style={{ backgroundColor: { color } }}>
-    <div id={index} role="button" onClick={deleteBox} onKeyPress={deleteBox} tabIndex={0}>
+    <div id={index} role="button" onClick={() => (deleteBox(index))} onKeyPress={deleteBox} tabIndex={0}>
       X
     </div>
-    {index}
+    {index + 1}
   </div>
 );
 

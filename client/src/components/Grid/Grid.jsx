@@ -18,15 +18,19 @@ class Grid extends React.Component {
 
   addBox(color) {
     const { boxes } = this.state;
+    const newBox = { index: boxes.length, color };
+    boxes.push(newBox);
     this.setState({
-      boxes: boxes.push({ color }),
+      boxes,
     });
   }
 
-  deleteBox(e) {
+  deleteBox(index) {
     const { boxes } = this.state;
+    boxes.splice(index, 1);
+    console.log(boxes, index);
     this.setState({
-      boxes: boxes.splice(e.target.id, 1),
+      boxes,
     });
   }
 

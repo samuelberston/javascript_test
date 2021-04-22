@@ -5,7 +5,7 @@ class AddBox extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: 'pink',
+      color: 'black',
     };
     this.colorSelect = this.colorSelect.bind(this);
   }
@@ -18,11 +18,12 @@ class AddBox extends React.Component {
 
   render() {
     const { addBox } = this.props;
+    const { color } = this.state;
     return (
       <div id="addBox">
         Add a Box
         <input id="color" type="color" onChange={this.colorSelect} />
-        <button type="button" onClick={addBox}>
+        <button type="button" onClick={() => { addBox(color); }}>
           ADD
         </button>
       </div>

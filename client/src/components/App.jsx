@@ -24,7 +24,7 @@ class App extends React.Component {
     return (
       <div id="app">
         <Header />
-        <CreateGrid />
+        {/* <CreateGrid /> */}
         <Grid columns={columns} />
       </div>
     );
