@@ -11,6 +11,7 @@ class App extends React.Component {
     this.state = {
       columns: 0,
     };
+    this.setColumns = this.setColumns.bind(this);
   }
 
   setColumns(columns) {
@@ -24,8 +25,8 @@ class App extends React.Component {
     return (
       <div id="app">
         <Header />
-        {/* <CreateGrid /> */}
-        <Grid columns={columns} />
+        <CreateGrid setColumns={this.setColumns} />
+        <Grid columns={parseInt(columns, 10)} />
       </div>
     );
   }

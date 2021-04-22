@@ -28,7 +28,6 @@ class Grid extends React.Component {
   deleteBox(index) {
     const { boxes } = this.state;
     boxes.splice(index, 1);
-    console.log(boxes, index);
     this.setState({
       boxes,
     });
