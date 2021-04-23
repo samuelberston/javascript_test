@@ -1,6 +1,8 @@
 /* eslint-disable import/extensions */
 import React from 'react';
 
+import Header from './Header/Header.jsx';
+
 import css from './App.module.css';
 
 class App extends React.Component {
@@ -13,7 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="app" className={css.app}>
-        React app
+        <Header />
       </div>
     );
   }
