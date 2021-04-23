@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 20px;
+  padding: 10px;
+
+}
+
+.header .module {
+  margin: 4px 10px;
+  padding: 4px 10px;
+  color: rgb(226, 226, 226);
+  font-family: 'Cairo', sans-serif;
+  font-weight: 100;
+  /* border: 1px solid black; */
+}
+
+.header .module:hover {
+  color: #34C9AE;
+  background: radial-gradient(#14584c94, #21817010,#16574b00 100%);
+  border-radius: 30%;
+}
+
+.header #resume {
+  padding: 5px 15px;
+  color: #34C9AE;
+  border: 1px solid #34C9AE;
+  border-radius: 5px;
+}
+
+.header #resume:hover {
+  background-color: #34c9ae25;
+}

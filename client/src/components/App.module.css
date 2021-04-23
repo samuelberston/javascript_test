@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app .headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #081830;
+  border: 1px solid black;
+}
+
+.app .underHeader {
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+}

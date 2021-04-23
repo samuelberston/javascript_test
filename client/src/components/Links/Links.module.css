@@ -1,0 +1,34 @@
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+
+.linksContainer .line {
+  /* background-color: white; */
+  margin: 20px 0;
+  width: 2px;
+  border-right: 1.5px solid rgb(190, 190, 190);
+}
+
+.topLine {
+  height: 200px;
+}
+
+.links {
+  margin: 5px;
+  padding: 5px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bottomLine {
+  height: 300px;
+}

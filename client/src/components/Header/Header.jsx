@@ -4,7 +4,6 @@ import css from './Header.module.css';
 
 const Header = () => (
   <div id="header" className={css.header}>
-    Header
     <div id="about" className={css.module}>
       About
     </div>
@@ -17,7 +16,7 @@ const Header = () => (
     <div id="contact" className={css.module}>
       Contact
     </div>
-    <div id="resume" className={css.module}>
+    <div id={css.resume} className={css.module}>
       Resume
     </div>
   </div>

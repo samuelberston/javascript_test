@@ -17,9 +17,13 @@ class App extends React.Component {
   render() {
     return (
       <div id="app" className={css.app}>
-        <Header />
-        <Links />
-        <Main />
+        <div className={css.headerContainer}>
+          <Header />
+        </div>
+        <div className={css.underHeader}>
+          <Links />
+          <Main />
+        </div>
       </div>
     );
   }
