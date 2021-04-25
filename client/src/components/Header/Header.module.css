@@ -12,15 +12,18 @@
   color: rgb(226, 226, 226);
   font-family: 'Cairo', sans-serif;
   font-weight: 100;
+  font-size: 16px;
  }
 
 .header .module:hover {
   color: #34C9AE;
+  cursor: pointer;
   background: radial-gradient(#14584c94, #21817010,#16574b00 100%);
   border-radius: 30%;
 }
 
 .header #resume {
+  font-size: 18px;
   padding: 5px 15px;
   color: #34C9AE;
   border: 1px solid #34C9AE;

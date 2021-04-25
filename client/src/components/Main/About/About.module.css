@@ -39,4 +39,9 @@ button {
 
 button:hover {
   background-color: #2ca08b23;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
