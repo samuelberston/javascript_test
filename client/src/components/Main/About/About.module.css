@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  color: #34C9AE;
+  font-family: 'Cairo', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.name, .bio {
+  color: #F4F4F4;
+  font-family: 'Cairo', sans-serif;
+}
+
+.name {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.bio {
+  width: 45%;
+  line-height: 24px;
+}
+
+button {
+  width: 120px;
+  background-color: #62c7b40e;
+  color: #34C9AE;
+  font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+  margin: 15px 2px;
+  padding: 5px 5px;
+  border: 1px solid #34C9AE;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2ca08b23;
+}

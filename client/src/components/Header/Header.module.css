@@ -4,7 +4,6 @@
   align-items: center;
   margin: 5px 20px;
   padding: 10px;
-
 }
 
 .header .module {
@@ -13,8 +12,7 @@
   color: rgb(226, 226, 226);
   font-family: 'Cairo', sans-serif;
   font-weight: 100;
-  /* border: 1px solid black; */
-}
+ }
 
 .header .module:hover {
   color: #34C9AE;
@@ -30,5 +28,5 @@
 }
 
 .header #resume:hover {
-  background-color: #34c9ae25;
+  background-color: #62c7b40e;
 }
