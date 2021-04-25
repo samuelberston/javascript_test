@@ -7,7 +7,6 @@ import Contact from './Contact/Contact.jsx';
 
 const Main = () => (
   <div id="main">
-    Main
     <About />
     <Projects />
     <Experience />
