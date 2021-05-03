@@ -8,12 +8,12 @@ const Links = () => (
       &nbsp;
     </div>
     <div id="links" className={css.links}>
-      <div id="gitHub" className={css.link}>
+      <a id="gitHub" className={css.link} href="https://github.com/samuelberston" target="_blank" rel="noreferrer">
         <i className="fa fa-github" />
-      </div>
-      <div id="linkedIn" className={css.link}>
+      </a>
+      <a id="linkedIn" className={css.link} href="https://www.linkedin.com/in/samberston/" target="_blank" rel="noreferrer">
         <i className="fa fa-linkedin-in" />
-      </div>
+      </a>
       <div id="gmail" className={css.link}>
         <i className="fa fa-envelope-square" />
       </div>
