@@ -28,16 +28,21 @@
 }
 
 button {
-  width: 120px;
+  width: 130px;
   background-color: #62c7b40e;
-  color: #34C9AE;
-  font-family: 'Cairo', sans-serif;
-  font-size: 18px;
   margin: 15px 2px;
   padding: 5px 5px;
   border: 1px solid #34C9AE;
   border-radius: 5px;
 }
+
+button a {
+  color: #34C9AE;
+  font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 
 button:hover {
   background-color: #2ca08b23;

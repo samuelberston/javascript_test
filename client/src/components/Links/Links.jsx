@@ -14,9 +14,9 @@ const Links = () => (
       <a id="linkedIn" className={css.link} href="https://www.linkedin.com/in/samberston/" target="_blank" rel="noreferrer">
         <i className="fa fa-linkedin-in" />
       </a>
-      <div id="gmail" className={css.link}>
+      <a id="gmail" className={css.link} href="mailto: samuelberston@gmail.com">
         <i className="fa fa-envelope-square" />
-      </div>
+      </a>
     </div>
     <div id="bottomLine" className={`${css.line} ${css.bottomLine}`}>
       &nbsp;

@@ -16,7 +16,9 @@ const About = () => (
       looking for a new opportunity of a software engineer at an awesome tech company.
     </div>
     <button id="getInTouch" className={css.getInTouch} type="button">
-      Get In Touch
+      <a href="mailto: samuelberston@gmail.com">
+        Get In Touch
+      </a>
     </button>
   </div>
 );
