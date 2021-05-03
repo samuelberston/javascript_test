@@ -33,9 +33,6 @@
 }
 
 .link:hover {
-  margin: 8px;
-  padding: 8px;
-  font-size: 30px;
   color: #34C9AE;
   cursor: pointer;
 }

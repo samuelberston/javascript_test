@@ -3,7 +3,7 @@ import React from 'react';
 import css from './Header.module.css';
 
 const Header = () => (
-  <div id="header" className={css.header}>
+  <nav id="header" className={css.header}>
     <div id="about" className={css.module}>
       About
     </div>
@@ -19,7 +19,7 @@ const Header = () => (
     <div id={css.resume} className={css.module}>
       Resume
     </div>
-  </div>
+  </nav>
 );
 
 export default Header;
