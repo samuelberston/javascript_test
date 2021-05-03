@@ -1,12 +1,16 @@
 .header {
   position: fixed;
-  top: 0px;
+  top: -5px;
+  width: 97%;
   display: flex;
+  justify-content: flex-end;
   flex-direction: row;
   align-items: center;
   margin: 5px 20px;
   padding: 10px;
   background-color: #081830;
+  border-bottom: 1px solid black;
+  z-index: 101;
 }
 
 .header .module {

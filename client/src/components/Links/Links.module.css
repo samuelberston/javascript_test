@@ -1,13 +1,12 @@
 .linksContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  position: sticky;
+  position: fixed;
+  top: 50px;
 }
 
 .linksContainer .line {
-  /* background-color: white; */
   margin: 20px 0;
   width: 2px;
   border-right: 1.5px solid rgb(190, 190, 190);
