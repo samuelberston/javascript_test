@@ -1,3 +1,16 @@
 .projects {
   margin: 50px;
 }
+
+h2 {
+  justify-self: center;
+  align-self: center;
+}
+
+.project {
+  color: whitesmoke;
+  font-family: 'Cairo';
+  font-size: 16px;
+  line-height: 22px;
+  width: 85%;
+}
