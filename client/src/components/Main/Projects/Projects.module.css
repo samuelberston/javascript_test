@@ -1,16 +1,62 @@
 .projects {
   margin: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  position: relative;
+  top: 450px;
 }
 
 h2 {
-  justify-self: center;
+  color: whitesmoke;
+  font-family: 'Cairo';
+  font-size: 26px;
   align-self: center;
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  padding: 15px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.project .text{
   color: whitesmoke;
   font-family: 'Cairo';
   font-size: 16px;
   line-height: 22px;
   width: 85%;
+}
+
+.projectLink {
+  width: max-content;
+  margin: 10px;
+  padding: 5px 15px;
+  border: 1px solid #34C9AE;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.projectLink a {
+  color: #34C9AE;
+  font-size: 18px;
+  font-family: 'Cairo';
+}
+
+.projectLink:hover {
+  background-color: #62c7b40e
+}
+
+#imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px;
+  padding: 5px;
+}
+
+#imgs img {
+  height: 220px;
 }

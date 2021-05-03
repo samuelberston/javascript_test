@@ -13,7 +13,7 @@ const About = () => (
     <div id="bio" className={css.bio}>
       I’m a recent graduate of  Northwestern and Hack Reactor’s Advanced Software Engineering
       Immersive  program with experience building full-stack web applications.  I’m currently
-      looking for a new opportunity of a software engineer at an awesome tech company.
+      looking for a new opportunity as a software engineer at an awesome tech company.
     </div>
     <button id="getInTouch" className={css.getInTouch} type="button">
       <a href="mailto: samuelberston@gmail.com">

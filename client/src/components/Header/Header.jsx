@@ -4,14 +4,14 @@ import css from './Header.module.css';
 
 const Header = () => (
   <nav id="header" className={css.header}>
-    <div id="about" className={css.module}>
+    <div id="about" className={css.module} role="button" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); }} onKeyPress={() => {}} tabIndex={0}>
       About
     </div>
-    <div id="projects" className={css.module}>
-      Projects
+    <div id="technologies" className={css.module} role="button" onClick={() => { window.scrollTo({ top: 700, behavior: 'smooth' }); }} onKeyPress={() => {}} tabIndex={0}>
+      Technologies
     </div>
-    <div id="experience" className={css.module}>
-      Experience
+    <div id="projects" className={css.module} role="button" onClick={() => { window.scrollTo({ top: 1550, behavior: 'smooth' }); }} onKeyPress={() => {}} tabIndex={0}>
+      Projects
     </div>
     <div id="contact" className={css.module}>
       Contact

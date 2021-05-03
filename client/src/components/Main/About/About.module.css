@@ -1,5 +1,5 @@
 .about {
-  margin: 50px;
+  margin: 60px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -8,7 +8,7 @@
 .intro {
   color: #34C9AE;
   font-family: 'Cairo', sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 100;
 }
 
@@ -18,8 +18,12 @@
 }
 
 .name {
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 700;
+}
+
+.name:hover, .bio:hover {
+  color: rgb(207, 207, 207);
 }
 
 .bio {
