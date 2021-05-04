@@ -8,7 +8,7 @@ const About = () => (
       Hi, my name is
     </div>
     <div id="name" className={css.name}>
-      Sam Berston
+      Sam Berston.
     </div>
     <div id="bio" className={css.bio}>
       I’m a recent graduate of  Northwestern and Hack Reactor’s Advanced Software Engineering
