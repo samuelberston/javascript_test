@@ -20,6 +20,11 @@ const About = () => (
         Get In Touch
       </a>
     </button>
+    <div id="scrollToTechnologies" className={css.scrollToTechnologies}>
+      <button id="scrollToTechnologiesButton" className={css.scrollToTechnologiesButton} type="button" onClick={() => { window.scrollTo({ top: 900, behavior: 'smooth' }); }} onKeyPress={() => {}} tabIndex={0}>
+        <i className="fa fa-angle-double-down" />
+      </button>
+    </div>
   </div>
 );
 

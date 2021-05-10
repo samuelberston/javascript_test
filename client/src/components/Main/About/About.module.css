@@ -59,3 +59,19 @@ button:hover {
 button:focus {
   outline: none;
 }
+
+.scrollToTechnologies {
+  align-self: center;
+  position: relative;
+  top: 20px;
+}
+
+.scrollToTechnologiesButton {
+  width: max-content;
+  height: max-content;
+  margin: 30px;
+  padding: 10px 20px;
+  color: rgb(201, 201, 201);
+  font-size: 52px;
+  border-radius: 50%;
+}
