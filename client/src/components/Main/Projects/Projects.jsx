@@ -23,9 +23,9 @@ const Projects = () => (
         Jest/Enzyme/CircleCI
       </div>
       <div id={css.imgs} className={css.localVoiceImgs}>
-        <img src="https://media-exp1.licdn.com/dms/image/C562DAQGB59TGk5I8Ww/profile-treasury-image-shrink_800_800/0/1618297098474?e=1620162000&v=beta&t=jCV2RMWbfK1cMYLEn6CG9q-KudA5WbL0DSFHC2r3vHk" alt="" />
-        <img src="https://media-exp1.licdn.com/dms/image/C562DAQFHUzR2F_OEFA/profile-treasury-image-shrink_800_800/0/1618297068161?e=1620162000&v=beta&t=fyQ2Gkj48H4zCojeheX0152LkhlXZ83jqGCa97EzezY" alt="" />
-      </div>
+        <img src="https://media-exp1.licdn.com/dms/image/C562DAQGB59TGk5I8Ww/profile-treasury-image-shrink_800_800/0/1618297098474?e=1620853200&v=beta&t=ghZRB0zdH1MZ24ICO3h1aa2p-k_MzTrIwz8ALsqYiWo" alt="" />
+        <img src="https://media-exp1.licdn.com/dms/image/C562DAQFHUzR2F_OEFA/profile-treasury-image-shrink_800_800/0/1618297068161?e=1620853200&v=beta&t=5E74rWhUseTl_WsDGbsgYbOco_juQO6ejFlmaGTj9lI" alt="" />
+	</div>
     </div>
     <div className={`${css.textify} ${css.project}`}>
       <div className={css.projectLink}>
@@ -40,8 +40,8 @@ const Projects = () => (
         Technologies: Twilio API, cron, React, CSS, Nodejs, Express, MySQL
       </div>
       <div id={css.imgs} className={css.textifyImgs}>
-        <img src="https://media-exp1.licdn.com/dms/image/C562DAQEZkb-B2ZXB1A/profile-treasury-image-shrink_800_800/0/1618297338375?e=1620165600&v=beta&t=kKqd3gxTB9eHG1TFcMxG5OxfcvKN9iCwLnp4REs1sNg" alt="" />
-        <img src="https://media-exp1.licdn.com/dms/image/C562DAQGsEAV0FjNg2g/profile-treasury-image-shrink_800_800/0/1618297302706?e=1620165600&v=beta&t=TSkPjwIrngGBfEs9lkTfMa6SeRk54rkrD8u-xNVp8hc" alt="" />
+	        <img src="https://media-exp1.licdn.com/dms/image/C562DAQEZkb-B2ZXB1A/profile-treasury-image-shrink_800_800/0/1618297338375?e=1620853200&v=beta&t=xlAT36VKwhwsPedaGNH3UmyvQ-3lvGA9O-c2xip-xC4" alt="" />
+        <img src="https://media-exp1.licdn.com/dms/image/C562DAQGsEAV0FjNg2g/profile-treasury-image-shrink_800_800/0/1618297302706?e=1620853200&v=beta&t=JCjgUwo94gIj1SFw7NIS2Wp44jAwuGvYObPwstPapxc" alt="" />
       </div>
     </div>
   </div>
