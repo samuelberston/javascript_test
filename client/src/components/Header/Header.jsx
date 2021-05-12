@@ -10,7 +10,7 @@ const Header = () => (
     <div id="technologies" className={css.module} role="button" onClick={() => { window.scrollTo({ top: 900, behavior: 'smooth' }); }} onKeyPress={() => {}} tabIndex={0}>
       Technologies
     </div>
-    <div id="projects" className={css.module} role="button" onClick={() => { window.scrollTo({ top: 1600, behavior: 'smooth' }); }} onKeyPress={() => {}} tabIndex={0}>
+    <div id="projects" className={css.module} role="button" onClick={() => { window.scrollTo({ top: 1625, behavior: 'smooth' }); }} onKeyPress={() => {}} tabIndex={0}>
       Projects
     </div>
     <div id="contact" className={css.module} role="button" onClick={() => { window.scrollTo({ top: 3200, behavior: 'smooth' }); }} onKeyPress={() => {}} tabIndex={0}>
