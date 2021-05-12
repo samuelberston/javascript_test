@@ -28,11 +28,14 @@ const Projects = () => (
       <div className={css.text}>
         Local Voice is a location-based web application that displays user-generated issue data and
         allows users to submit issues of their own. Users can interact with the issues in a map view
-        as well as a feed, and engage in discussion around issues.
-        Users can also alert local officials of issues.
+        as well as a feed, engage in discussion around issues, and alert local officials of issues
+        with the Google Civic API.
         <br />
-        Technologies: Google Maps API, Google Civic API, ES6, React, Nodejs, Express, MySQL,
-        Jest/Enzyme/CircleCI
+        <br />
+        <div className={css.technologies}>
+          Technologies: Google Maps API, Google Civic API, React, Nodejs, Express, MySQL,
+          Jest/Enzyme/CircleCI
+        </div>
       </div>
       <Carousel imgs={localVoiceImgs} />
     </div>
@@ -46,7 +49,10 @@ const Projects = () => (
         Textify is a single page application that allows users to schedule automated text messages.
         Textify is an MVP project that I built in two days.
         <br />
-        Technologies: Twilio API, cron, React, CSS, Nodejs, Express, MySQL
+        <br />
+        <div className={css.technologies}>
+          Technologies: Twilio API, cron, React, CSS, Nodejs, Express, MySQL
+        </div>
       </div>
       <Carousel imgs={textifyImgs} />
     </div>

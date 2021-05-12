@@ -30,6 +30,10 @@ h2 {
   width: 85%;
 }
 
+.text .technologies {
+  color: rgb(197, 197, 197);
+}
+
 .projectLink {
   width: max-content;
   margin: 10px;
@@ -41,7 +45,7 @@ h2 {
 
 .projectLink a {
   color: #34C9AE;
-  font-size: 18px;
+  font-size: 22px;
   font-family: 'Cairo';
 }
 

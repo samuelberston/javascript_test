@@ -20,16 +20,10 @@ const Technologies = () => (
             React
           </li>
           <li>
-            jQuery
-          </li>
-          <li>
             Babel
           </li>
           <li>
             Webpack
-          </li>
-          <li>
-            Google Maps API
           </li>
         </ul>
       </div>
@@ -45,22 +39,13 @@ const Technologies = () => (
             Express
           </li>
           <li>
-            REST API
-          </li>
-          <li>
             MySQL
           </li>
           <li>
             MongoDB
           </li>
           <li>
-            AWS (EC2, S3, CloudWatch)
-          </li>
-          <li>
-            NGINX
-          </li>
-          <li>
-            Twilio
+            AWS (EC2, S3, CloudWatch, Route 53)
           </li>
         </ul>
       </div>
@@ -73,22 +58,13 @@ const Technologies = () => (
             Jest/Enzyme
           </li>
           <li>
-            Mocha/Chai
-          </li>
-          <li>
             CircleCI
-          </li>
-          <li>
-            Git
           </li>
           <li>
             loader.io
           </li>
           <li>
             Chrome Dev Tools
-          </li>
-          <li>
-            k6/InfluxDB/Grafana
           </li>
         </ul>
       </div>

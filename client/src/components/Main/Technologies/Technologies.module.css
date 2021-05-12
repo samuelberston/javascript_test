@@ -21,6 +21,10 @@ h4 {
   border-bottom: 2px solid #34C9AE;
 }
 
+h4:hover {
+  background: radial-gradient(#14584c79, #21817010,#16574b00 100%);
+}
+
 li {
   font-size: 16px;
 }
