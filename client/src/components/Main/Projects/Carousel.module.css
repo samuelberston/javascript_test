@@ -25,6 +25,8 @@
 .carousel .imgDisplayContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: 'Cairo';
   font-size: 16px;
   color: whitesmoke;

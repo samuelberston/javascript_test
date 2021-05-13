@@ -22,24 +22,30 @@ const localVoiceImgs = [
 const textifyImgs = [
   {
     url: 'images/textify3.png',
+    caption: 'Application system design diagramming data flow, server architecture, database schema, and microservice',
   },
   {
-    url: 'images/textify1.png',
+    url: 'images/textify1.jpg',
+    caption: 'Interactive user controller panel styled with CSS inspired by Trello',
   },
   {
     url: 'images/textify2.png',
+    caption: 'Form connected to Twilio cron microservice',
   },
 ];
 
 const fecImgs = [
   {
     url: 'images/fec1.png',
+    caption: 'Stylish product page with complex React architecture and CSS',
   },
   {
     url: 'images/fec2.png',
+    caption: 'Image modal which appears over the Image Galler component',
   },
   {
     url: 'images/fec3.png',
+    caption: 'Interactive sticky header which appears after user scrolls away',
   },
 ];
 
