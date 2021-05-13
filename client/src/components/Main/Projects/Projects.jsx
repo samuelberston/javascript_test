@@ -5,21 +5,42 @@ import Carousel from './Carousel.jsx';
 import css from './Projects.module.css';
 
 const localVoiceImgs = [
-  'images/lv1.png',
-  'images/lv2.png',
-  'images/lv3.png',
+  {
+    url: 'images/lv1.png',
+    caption: 'Responsive Google Maps user interface which fetches data from a MySQL db based on user\'s location',
+  },
+  {
+    url: 'images/lv2.png',
+    caption: 'Interactive feed which dynamically renders issue cards and allows user to engage in discussion',
+  },
+  {
+    url: 'images/lv3.png',
+    caption: 'Reporting form which utilizes Google Civic API to generate list of local representatives',
+  },
 ];
 
 const textifyImgs = [
-  'images/textify3.png',
-  'images/textify1.jpg',
-  'images/textify2.png',
+  {
+    url: 'images/textify3.png',
+  },
+  {
+    url: 'images/textify1.png',
+  },
+  {
+    url: 'images/textify2.png',
+  },
 ];
 
 const fecImgs = [
-  'images/fec1.png',
-  'images/fec2.png',
-  'images/fec3.png',
+  {
+    url: 'images/fec1.png',
+  },
+  {
+    url: 'images/fec2.png',
+  },
+  {
+    url: 'images/fec3.png',
+  },
 ];
 
 const Projects = () => (

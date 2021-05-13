@@ -8,7 +8,8 @@ class Carousel extends React.Component {
     super(props);
     this.state = {
       index: 0,
-      url: null,
+      url: '',
+      caption: '',
     };
     this.leftClick = this.leftClick.bind(this);
     this.rightClick = this.rightClick.bind(this);
@@ -17,7 +18,8 @@ class Carousel extends React.Component {
   componentDidMount() {
     const { imgs } = this.props;
     this.setState({
-      url: imgs[0],
+      url: imgs[0].url,
+      caption: imgs[0].caption,
     });
   }
 
@@ -31,7 +33,8 @@ class Carousel extends React.Component {
     }
     this.setState({
       index,
-      url: imgs[index],
+      url: imgs[index].url,
+      caption: imgs[index].caption,
     });
   }
 
@@ -45,20 +48,26 @@ class Carousel extends React.Component {
     }
     this.setState({
       index,
-      url: imgs[index],
+      url: imgs[index].url,
+      caption: imgs[index].caption,
     });
   }
 
   render() {
-    const { index, url } = this.state;
+    const { index, url, caption } = this.state;
     return (
       <div id="carousel" className={css.carousel}>
         <button id="left-nav" type="button" onClick={this.leftClick}>
           <i className="fa fa-chevron-left" />
         </button>
-        <div id="img-display" className={css.imgDisplay}>
-          <div id={index} className={css.img}>
-            <img src={url} alt="" />
+        <div className={css.imgDisplayContainer}>
+          <div id="img-display" className={css.imgDisplay}>
+            <div id={index} className={css.img}>
+              <img src={url} alt="" />
+            </div>
+          </div>
+          <div id="caption" className={css.caption}>
+            {caption}
           </div>
         </div>
         <button id="right-nav" type="button" onClick={this.rightClick}>
@@ -70,7 +79,7 @@ class Carousel extends React.Component {
 }
 
 Carousel.propTypes = {
-  imgs: PropTypes.arrayOf(PropTypes.string).isRequired,
+  imgs: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Carousel;
