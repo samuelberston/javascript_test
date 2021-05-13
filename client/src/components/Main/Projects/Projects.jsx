@@ -11,8 +11,15 @@ const localVoiceImgs = [
 ];
 
 const textifyImgs = [
+  'images/textify3.png',
   'images/textify1.jpg',
   'images/textify2.png',
+];
+
+const fecImgs = [
+  'images/fec1.png',
+  'images/fec2.png',
+  'images/fec3.png',
 ];
 
 const Projects = () => (
@@ -57,6 +64,24 @@ const Projects = () => (
       </div>
       <Carousel imgs={textifyImgs} />
     </div>
+    <div className={`${css.fec} ${css.project}`}>
+      <div className={css.projectLink}>
+        <a href="https://github.com/samuelberston/Ecommerce-Site/blob/master/README.md" target="_blank" rel="noreferrer">
+          Ecommerce Site
+        </a>
+      </div>
+      <div className={css.text}>
+        This modern, user-friendly ecommerce product page was built using complex React architecture
+        and REST API.
+        <br />
+        <br />
+        <div className={css.technologies}>
+          Technologies: React, CSS modules, Express, Jest/Enzyme/CircleCI
+        </div>
+      </div>
+      <Carousel imgs={fecImgs} />
+    </div>
+
   </div>
 );
 
