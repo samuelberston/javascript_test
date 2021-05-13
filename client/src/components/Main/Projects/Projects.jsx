@@ -5,14 +5,14 @@ import Carousel from './Carousel.jsx';
 import css from './Projects.module.css';
 
 const localVoiceImgs = [
-  'https://media-exp1.licdn.com/dms/image/C562DAQGB59TGk5I8Ww/profile-treasury-image-shrink_800_800/0/1618297098474?e=1620853200&v=beta&t=ghZRB0zdH1MZ24ICO3h1aa2p-k_MzTrIwz8ALsqYiWo',
-  'https://media-exp1.licdn.com/dms/image/C562DAQFHUzR2F_OEFA/profile-treasury-image-shrink_800_800/0/1618297068161?e=1620853200&v=beta&t=5E74rWhUseTl_WsDGbsgYbOco_juQO6ejFlmaGTj9lI',
-  'https://media-exp1.licdn.com/dms/image/C562DAQHzSWTa7MrC2Q/profile-treasury-image-shrink_800_800/0/1618297181900?e=1620892800&v=beta&t=7SMtnfaIQoWnxO-lvK04fY1L5sYI43AuSXYYDUNm-g8',
+  'images/lv1.png',
+  'images/lv2.png',
+  'images/lv3.png',
 ];
 
 const textifyImgs = [
-  'https://media-exp1.licdn.com/dms/image/C562DAQEZkb-B2ZXB1A/profile-treasury-image-shrink_800_800/0/1618297338375?e=1620853200&v=beta&t=xlAT36VKwhwsPedaGNH3UmyvQ-3lvGA9O-c2xip-xC4',
-  'https://media-exp1.licdn.com/dms/image/C562DAQGsEAV0FjNg2g/profile-treasury-image-shrink_800_800/0/1618297302706?e=1620853200&v=beta&t=JCjgUwo94gIj1SFw7NIS2Wp44jAwuGvYObPwstPapxc',
+  'images/textify1.jpg',
+  'images/textify2.png',
 ];
 
 const Projects = () => (
