@@ -79,7 +79,8 @@ button:focus {
 @media only screen and (max-width: 1000px) {
   .about {
     margin: 60px;
-    height: 1400px;
+    height: 1800px;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -109,5 +110,9 @@ button:focus {
 
   button a {
     font-size: 56px;
+  }
+
+  .scrollToTechnologiesButton {
+    visibility: hidden;
   }
 }

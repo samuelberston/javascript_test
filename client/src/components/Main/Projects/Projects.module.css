@@ -60,3 +60,18 @@ h2 {
   margin: 5px;
   padding: 5px;
 }
+
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 72px;
+  }
+
+  .projectLink a {
+    font-size: 48px;
+  }
+
+  .project .text {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}

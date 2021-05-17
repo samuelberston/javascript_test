@@ -16,3 +16,12 @@
   text-decoration: wavy;
 }
 
+@media only screen and (max-width: 1000px) {
+  #contact {
+    height: 1000px;
+
+  }
+  .text {
+    font-size: 36px;
+  }
+}
